@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+table,
+tr,
+td {
+  border: 1px solid white;
+  padding: 1rem;
+}
+
+.map-box {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.map-hover:hover .map-box {
+  opacity: 1;
+  visibility: visible;
+}
